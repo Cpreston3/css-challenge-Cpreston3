@@ -5,18 +5,45 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
+/*****************************************************
+* 	selector {
+*  		property: value;
+* 	}
+ *****************************************************/
+
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
 }
 
+header {
+	/* margin: top, right, bottom, left */
+	/*margin: 1em 0em 1em 0em; */
+	background-color: #333333;
+}
+h1 {
+	color: #03eb08;
+}
+em {
+	color: #03eb08;
+}
+img {
+	/* margin: top, right, bottom, left */
+	margin: 1em 10em 1em 15em;
+}
 .container {
-	margin: 0 auto;
-	padding: 0 2rem;
+	margin:  auto;
+	padding:  2rem;
 }
 
 .clearfix {
 	clear: both;
+}
+
+.instructions-wrapper {
+	border-style: solid;
 }
 
 /* create a responsive container */
