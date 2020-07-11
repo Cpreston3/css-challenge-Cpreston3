@@ -57,21 +57,30 @@ img[alt*="welcome to my homepage"]{
 	margin-left: 15em;
 }
 
-img [alt*="captain picard"]{
+img[alt*="captain picard"]{
 	/* margin: top, right, bottom, left */
-	alignment: right;
-	margin-top: 0em;
+	float: left;
+	width: 160px;
+	height: 160px;
+	position: relative;
+	top: 5px;
+	left: -25px;
+	border: 1px	solid #dddddd;
 }
+
 .instructions-wrapper {
 	display: inline-block;
 	border-style: solid;
 	height: 10em;
-	width:75em;
-
-
-
+	width: 75em;
+}
+.about-me{
+	border: 1px solid #ddd;
+	background-color: blue;
+	color: #dddddd;
 
 }
+
 .instructions-content > h2 {
 	padding-left: 1em;
 }
