@@ -72,7 +72,10 @@ img[alt*="captain picard"]{
 	display: inline-block;
 	border-style: solid;
 	height: 10em;
-	width: 75em;
+	width: 70em;
+	letter-spacing: 1.5px;
+
+
 }
 .about-me{
 	border: 1px solid #ddd;
@@ -110,8 +113,14 @@ img[alt*="captain picard"]{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-left: 2em;
+	color: #00ff00;
 }
+button{
+	background-color: #00ff00;
+}
+label{display: block;
 
+}
 .clearfix {
 	clear: both;
 }
@@ -148,7 +157,7 @@ h4{
 	padding-top: 3em;
 	color: white;
 	text-align: center;
-	text-align-all: center;
+	vertical-align: 20em;
 }
 
 .sfooter-content {
