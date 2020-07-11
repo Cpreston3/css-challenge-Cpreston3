@@ -34,32 +34,60 @@ em {
 	left: 23em;
 	width: 500px;
 	height: 100px;
-
-
-
 }
-img {
+
+img[alt*="welcome to my homepage"]{
+	margin-left: 15em;
+}
+
+
+
+
+img [alt*="captain picard"]{
 	/* margin: top, right, bottom, left */
-	margin: 1em 10em 1em 10em;
-}
-img[alt*="captain janeway"] {
-	border-radius: 4px;
-	padding: 5px;
-	width: 200px;
 	alignment: right;
-	display: block;
-	margin-left: auto;
-}
+	margin-top: 50em;
 
+
+}
 .instructions-wrapper {
 	display: inline-block;
 	border-style: solid;
-	inline-size: content-box;
-	margin-bottom: auto;
+	height: 10em;
+	width:75em;
+
+
+
+
 }
+.instructions-content {
+
+}
+
+img[alt*="captain janeway"] {
+	/*border-radius: 4px;
+	padding: 10px;
+	width: 200px;
+	display: block;
+	margin-left: auto;*/
+
+	float: right;
+	margin-left: 200px 200px 200px 200px;
+	width: 150px;
+	height: 150px;
+
+
+}
+
 .container {
 	margin: auto;
 	padding: 2rem;
+
+}
+
+.form-wrapper{
+	background-color: green;
+	margin-right: 25em;
 }
 
 .clearfix {
@@ -95,10 +123,18 @@ body { width: 100%;}
 	flex-direction: column;
 	min-height: 100vh;
 }
+h4{
+	background-color: black;
+	padding-top: 3em;
+	color: white;
+	text-align: center;
+	text-align-all: center;
+}
 
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
 
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
