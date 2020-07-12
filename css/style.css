@@ -68,6 +68,7 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 85%;
+	size: 50px;
 
 }
 em {
@@ -128,15 +129,19 @@ span{
 
 .container {
 	padding: 2rem;
+
 }
 .container h2 {
 	text-align: right;
 }
+
 .about-me .container h2 {
 	text-align: left;
+
 }
 .container .form-wrapper h2 {
 	text-align: left;
+
 }
 .instructions-wrapper .instructions-content h2 {
 	text-align: left;
@@ -148,9 +153,17 @@ span{
 .form-wrapper{
 	background-color: green;
 	color: #00ff00;
-	border: 5em solid #333333;
+	border: 200px solid #333333;
 	display: block;
 	max-width: 100%;
+	margin: -35px -60px;
+
+}
+form{
+	padding: 30px;
+
+
+
 }
 button{
 	background-color: #00ff00;
@@ -183,6 +196,8 @@ input {
 footer {
 	width: 100%;
 	background-color: black;
+	margin: 0px;
+
 }
 
 footer h4{
