@@ -7,11 +7,35 @@
 ******************************************************/
 
 /*****************************************************
-* 	selector {
-*  		property: value;
-* 	}
- *****************************************************/
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+******************************************************/
 
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 10 auto;
+}
+
+
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
+******************************************************/
 
 html, body {
 	margin: 0;
@@ -82,7 +106,8 @@ img[alt*="captain picard"]{
 	border: 1px solid #ddd;
 	background-color: blue;
 	color: #dddddd;
-
+	padding: 10px 10px;
+	text-align: left;
 }
 span{
 	color:yellow;
@@ -102,33 +127,41 @@ span{
 }
 
 .container {
-	margin: auto;
 	padding: 2rem;
-
 }
-
+.container h2 {
+	text-align: right;
+}
+.about-me .container h2 {
+	text-align: left;
+}
+.container .form-wrapper h2 {
+	text-align: left;
+}
+.instructions-wrapper .instructions-content h2 {
+	text-align: left;
+}
 .instructions-content > li {
 	width: 100px;
 }
 
 .form-wrapper{
 	background-color: green;
-
 	color: #00ff00;
 	border: 5em solid #333333;
-	margin-top: 0em;
-	margin-right: -5em;
-	margin-bottom: -6em;
-	margin-left: -5em;
-
-
+	display: block;
+	max-width: 100%;
 }
 button{
 	background-color: #00ff00;
 }
 label{
 	display: block;
-
+	padding: 0px 5px;
+}
+input {
+	display: block;
+	left: 150px;
 }
 .clearfix {
 	clear: both;
@@ -148,49 +181,14 @@ label{
 }
 
 footer {
-
-}
-
-/*****************************************************
-* Flexbox Sticky Footer
-* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-******************************************************/
-
-/*corrects IE min-height bug*/
-html { display: flex;}
-body { width: 100%;}
-
-.sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-h4{
+	width: 100%;
 	background-color: black;
-	background-size: 100px;
+}
+
+footer h4{
+	background-size: 100%;
 	color: white;
 	text-align: center;
-
-
-
-
 }
-
-.sfooter-content {
-	flex: 10 auto;
-}
-
-
-/*****************************************************
-* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-*
-* HINT: You might want to be conversant with the following:
-* * Shorthand syntax for padding, margin, and borders
-* * Display property and values... and the differences between them.
-* * The Box Model
-* * Pseudo Classes
-* * Attribute Selectors
-******************************************************/
-
 
 
