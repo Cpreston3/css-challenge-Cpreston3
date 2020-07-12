@@ -26,6 +26,7 @@ header {
 h1 {
 	color: #00ff00;
 }
+
 /*  th is table header
 	td is table data
 	tr is table row */
@@ -40,8 +41,10 @@ td, th {
 	color: #00ff00;
 }
 table {
-	table-layout: auto;
-	width: 73%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+
 }
 em {
 	font-family: Lucida Sans Typewriter;
@@ -52,11 +55,9 @@ em {
 	width: 500px;
 	height: 100px;
 }
-
 img[alt*="welcome to my homepage"]{
 	margin-left: 15em;
 }
-
 img[alt*="captain picard"]{
 	/* margin: top, right, bottom, left */
 	float: left;
@@ -83,7 +84,10 @@ img[alt*="captain picard"]{
 	color: #dddddd;
 
 }
-
+span{
+	color:yellow;
+	font-style:italic;
+}
 .instructions-content > h2 {
 	padding-left: 1em;
 }
@@ -109,16 +113,21 @@ img[alt*="captain picard"]{
 
 .form-wrapper{
 	background-color: green;
-	margin-right: 20em;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	padding-left: 2em;
+
 	color: #00ff00;
+	border: 5em solid #333333;
+	margin-top: 0em;
+	margin-right: -5em;
+	margin-bottom: -6em;
+	margin-left: -5em;
+
+
 }
 button{
 	background-color: #00ff00;
 }
-label{display: block;
+label{
+	display: block;
 
 }
 .clearfix {
@@ -138,6 +147,10 @@ label{display: block;
 	.container { width: 750px; }
 }
 
+footer {
+
+}
+
 /*****************************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -154,14 +167,17 @@ body { width: 100%;}
 }
 h4{
 	background-color: black;
-	padding-top: 3em;
+	background-size: 100px;
 	color: white;
 	text-align: center;
-	vertical-align: 20em;
+
+
+
+
 }
 
 .sfooter-content {
-	flex: 1 0 auto;
+	flex: 10 auto;
 }
 
 
